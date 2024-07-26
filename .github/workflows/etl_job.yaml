@@ -19,13 +19,13 @@ jobs:
             python-version: 3.9
 
         - name: Libraries Installations
-          run: pip install pandas requests datetime
+          run: pip install pandas datetime requests
 
-        - name: Run the scripts
-          run: python apps.py
+        - name: Run the script
+          run: python app.py
 
         - name: Publish files to github repo
-          uses: mikeal/publish-to-github-actions@master
+          uses: mikeal/publish-to-github-action@master
           env:
             GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
             BRANCH_NAME: 'Master'
