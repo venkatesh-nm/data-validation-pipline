@@ -20,7 +20,7 @@ def validate_data(file_path):
             errors.append(f'Missing values found:\n{missing_data}')
 
         if not df['age'].apply(lambda x: str(x).isdigit()).all():
-            invalid_age_data - df[~df['age'].apply(lambda x: str(x).isdigit())]
+            invalid_age_data = df[~df['age'].apply(lambda x: str(x).isdigit())]
             errors.append(f'Invalid age values found:\n{invalid_age_data}')
 
 
