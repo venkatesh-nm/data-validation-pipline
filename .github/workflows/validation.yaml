@@ -3,7 +3,7 @@ name: Data validation
 on:
   push:
     branches:
-    - main
+    - Master
 
 jobs:
   validation-pipeline:
