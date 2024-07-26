@@ -22,7 +22,7 @@ jobs:
           run: pip install pandas datetime requests
 
         - name: Run the script
-          run: python app.py
+          run: python apps.py
 
         - name: Publish files to github repo
           uses: mikeal/publish-to-github-action@master
