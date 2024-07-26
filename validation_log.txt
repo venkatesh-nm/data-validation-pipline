@@ -1,0 +1,2 @@
+2024-07-26 05:28:36.915966 - Data loaded successfully
+2024-07-26 05:28:36.920301 - Data validation failed with error: name 'invalid_age_data' is not defined
