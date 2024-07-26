@@ -1,2 +1,10 @@
 2024-07-26 05:28:36.915966 - Data loaded successfully
 2024-07-26 05:28:36.920301 - Data validation failed with error: name 'invalid_age_data' is not defined
+2024-07-26 05:30:11.820866 - Data loaded successfully
+2024-07-26 05:30:11.827916 - Missing values found:
+  id name age
+3  4  NaN  30
+2024-07-26 05:30:11.827955 - Invalid age values found:
+  id         name  age
+2  3  Invalid Age  abc
+2024-07-26 05:30:11.827983 - Data validation failed.
