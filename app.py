@@ -12,6 +12,7 @@ def validate_data(file_path):
         df = pd.read_csv(file_path)
         write_message('Data loaded successfully')
 
+        
         errors = []
 
         if df.isnull().values.any():
