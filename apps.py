@@ -5,7 +5,7 @@ import datetime
 log_file = 'etl_log.txt'
 
 def log_message(message):
-    with open(log_file, 'a') as f:
+    with open(log_file, a) as f:
         f.write(f'{datetime.datetime.now()} - {message}\n')
 
 try:
